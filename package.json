@@ -1,0 +1,26 @@
+{
+  "name": "passion-sirene",
+  "description": "Un bot mastodon qui pouette le premier mercredi de chaque mois",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "toot": "node index.js"
+  },
+  "keywords": [
+    "mastodon",
+    "bot",
+    "mastodon-bot"
+  ],
+  "author": {
+    "name": "Nicolas Perriault",
+    "email": "nicolas+gastrobot@perriault.net",
+    "url": "https://nicolas.perriault.net"
+  },
+  "license": "MIT",
+  "homepage": "https://piaille.fr/@passionsirene",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "masto": "^6.10.1"
+  }
+}
